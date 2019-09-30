@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: worker- app
-    image: sinenomine/examplevotingapp_worker
+    image: dockersamples/examplevotingapp_worker
 
     
