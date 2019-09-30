@@ -9,7 +9,7 @@ spec:
   type: LoadBalancer
   ports:
   - port: 80
-    tagetPort: 80
+    targetPort: 80
   selector:
     name: result-app-pod
     app: example-voting-app
